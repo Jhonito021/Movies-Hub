@@ -129,3 +129,34 @@ img.logo-track {
     border-radius: 10px;
     color: #d4d8dd;
 }
+
+footer {
+    width: 100%;
+    margin-top: 50px;
+    background-image: linear-gradient(130deg,#d4d8dd, #aab7b7 ,#1a2d42);
+    box-shadow: 0 8px 32px 0 #1a2d42;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.developpeur p {
+    color: #1a2d42;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.social-link a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+.social-link a i {
+    background: #d4d8dd;
+    color: #1a2d42;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+}
